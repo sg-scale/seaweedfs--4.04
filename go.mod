@@ -1,8 +1,6 @@
 module github.com/seaweedfs/seaweedfs
 
-go 1.24.0
-
-toolchain go1.24.1
+go 1.26.0
 
 require (
 	cloud.google.com/go v0.121.6 // indirect
@@ -162,7 +160,7 @@ require (
 	github.com/ydb-platform/ydb-go-sdk/v3 v3.122.0
 	go.etcd.io/etcd/client/pkg/v3 v3.6.6
 	go.uber.org/atomic v1.11.0
-	golang.org/x/sync v0.19.0
+	golang.org/x/sync v0.25.0
 	golang.org/x/tools/godoc v0.1.0-deprecated
 	google.golang.org/grpc/security/advancedtls v1.0.0
 )
